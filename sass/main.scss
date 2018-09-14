@@ -1,0 +1,10 @@
+// Sass Imports
+@import 'compass';
+@import 'partials/normalize';
+ 
+
+body {
+    h1 {
+        color: rgba(255, 0, 0, 1);
+    }
+}
