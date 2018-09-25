@@ -921,43 +921,50 @@ html {
 
 /* line 12, ../sass/main.scss */
 body .container {
-  width: 100%;
-  height: 727px;
   text-align: center;
-  position: relative;
-}
-/* line 19, ../sass/main.scss */
-body .container .splash {
-  position: absolute;
-  top: 32%;
+  background: #00a7b2;
+  display: flex;
   width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
-/* line 25, ../sass/main.scss */
-body .container .splash p {
+/* line 22, ../sass/main.scss */
+body .container p {
   font-family: Arial, Helvetica, sans-serif;
+  color: #ddd5b0;
 }
-/* line 29, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
+body .container .splash {
+  height: 100%;
+  max-width: 50%;
+  overflow: auto;
+}
+/* line 33, ../sass/main.scss */
 body .container .splash h1 {
   font-family: 'Love Ya Like A Sister', cursive;
+  color: #dbd100;
   font-size: 6rem;
   line-height: 6rem;
-  margin: 0;
-}
-/* line 36, ../sass/main.scss */
-body .container .splash h2 {
-  font-family: 'Leckerli One', cursive;
-  font-size: 3rem;
+  letter-spacing: 1rem;
   margin: 0;
 }
 /* line 42, ../sass/main.scss */
-body .container .splash a {
-  text-decoration: none;
+body .container .splash h2 {
+  font-family: 'Leckerli One', cursive;
+  color: #ff7965;
+  font-size: 3rem;
+  margin: 0;
 }
-/* line 46, ../sass/main.scss */
-body .container .splash a .arrow {
+/* line 49, ../sass/main.scss */
+body .container .splash .arrow a {
+  text-decoration: none;
+  color: #ff7965;
+}
+/* line 54, ../sass/main.scss */
+body .container .splash .arrow {
   font-size: 4rem;
   padding: 16px 0;
-  color: black;
   animation: jump 1000ms ease-in-out infinite;
   transform-origin: 50% 50%;
 }
