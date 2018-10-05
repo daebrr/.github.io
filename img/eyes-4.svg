@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="218px" height="101px" viewBox="0 0 218 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>eyes-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="eyes-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eye">
+            <g transform="translate(0.428571, 0.080402)">
+                <g id="lashes" transform="translate(11.571429, 0.919598)" stroke="#000000" stroke-linecap="round" stroke-width="5">
+                    <path d="M26.6875,22.125 L26.6875,0.63671875" id="Path-2"></path>
+                    <path d="M43.6434315,25.8673725 L53.7315685,6.89434627" id="Path-2"></path>
+                    <path d="M0.64343151,24.8673725 L10.7315685,5.89434627" id="Path-2" transform="translate(5.687500, 15.380859) scale(-1, 1) translate(-5.687500, -15.380859) "></path>
+                </g>
+                <ellipse id="1" fill="#FFFFFF" cx="38.2857143" cy="61.3115578" rx="37.8169719" ry="37.8380869"></ellipse>
+                <ellipse id="1" fill="#000000" cx="37.2352428" cy="61.3115578" rx="19.6671598" ry="19.6781409"></ellipse>
+            </g>
+            <g transform="translate(140.428571, 0.080402)">
+                <g id="lashes" transform="translate(11.571429, 0.919598)" stroke="#000000" stroke-linecap="round" stroke-width="5">
+                    <path d="M26.6875,22.125 L26.6875,0.63671875" id="Path-2"></path>
+                    <path d="M43.6434315,25.8673725 L53.7315685,6.89434627" id="Path-2"></path>
+                    <path d="M0.64343151,24.8673725 L10.7315685,5.89434627" id="Path-2" transform="translate(5.687500, 15.380859) scale(-1, 1) translate(-5.687500, -15.380859) "></path>
+                </g>
+                <ellipse id="1" fill="#FFFFFF" cx="38.2857143" cy="61.3115578" rx="37.8169719" ry="37.8380869"></ellipse>
+                <ellipse id="1" fill="#000000" cx="37.2352428" cy="61.3115578" rx="19.6671598" ry="19.6781409"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

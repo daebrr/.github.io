@@ -8,7 +8,7 @@ html {
 }
 
 body.pageOneColor {
-    background: #00a7b2;
+    // background: #00a7b2;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 
        .splash {
            height: 100%;
-            // max-width: 50%;
+            max-width: 50%;
             overflow: auto;
 
 
@@ -70,6 +70,32 @@ body {
                 100% {
                     transform: translateY(0);
                 }
+            }
+
+        }
+
+        .cupcake-whole {
+
+            position: relative;
+            max-width: 600px;
+
+            .frosting {
+                position: absolute;
+                top: 40px;
+                right: -220px;
+                z-index: 3;
+            }
+
+            .cake {
+                position: absolute;
+                top: 220px;
+                right: -220px;
+            }
+
+            .wrapper {
+                position: absolute;
+                top: 330px;
+                right: -220px;
             }
 
         }
