@@ -335,7 +335,11 @@
                 e.stopPropagation();
                 e.preventDefault();
                 revert();
-                hide();
+                $('.frostingTop').css('fill', '#02949D');
+                $('.frostingBottom').css('fill', '#00A7B2');
+                $('.cake').css('fill', '#DBD100');
+                $('#wrapperMain path').css('fill', '#FF7965');
+                $('.wrapperLine').css('stroke', '#D66554');
             });
 
             clearButton.attr("title", opts.clearText);

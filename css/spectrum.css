@@ -253,7 +253,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
 
 .sp-container {
     border-radius: 0;
-    background-color: #ECECEC;
+    /* background-color: #ECECEC; */
     padding: 0;
 }
 .sp-container, .sp-container button, .sp-container input, .sp-color, .sp-hue, .sp-clear {
@@ -367,7 +367,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     display:inline-block;
     *zoom: 1;
     *display: inline;
-    background: #eee;
+    /* background: #eee; */
     color: #333;
     vertical-align: middle;
 }
@@ -465,7 +465,6 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
 .sp-cancel:hover {
     color: #d93f3f !important;
 }
-
 
 .sp-palette span:hover, .sp-palette span.sp-thumb-active {
     border-color: #000;
