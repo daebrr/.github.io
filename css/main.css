@@ -1102,3 +1102,36 @@ html {
     transform: translateX(0);
   }
 }
+/* line 199, ../sass/main.scss */
+.container .accessoryContainer {
+  position: fixed;
+  z-index: 10;
+}
+/* line 204, ../sass/main.scss */
+.container .accessoryContainer img {
+  position: absolute;
+  bottom: 130px;
+  right: -280px;
+}
+/* line 212, ../sass/main.scss */
+.container .eyeContainer {
+  position: fixed;
+  z-index: 11;
+}
+/* line 217, ../sass/main.scss */
+.container .eyeContainer img {
+  position: absolute;
+  bottom: 26px;
+  right: -280px;
+}
+/* line 225, ../sass/main.scss */
+.container .mouthContainer {
+  position: fixed;
+  z-index: 12;
+}
+/* line 230, ../sass/main.scss */
+.container .mouthContainer img {
+  position: absolute;
+  bottom: -80px;
+  right: -280px;
+}

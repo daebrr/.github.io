@@ -195,6 +195,45 @@ position: relative;
         }
 
     }
+
+    .accessoryContainer {
+
+        position: fixed;
+        z-index: 10;
+
+        img {
+
+            position: absolute;
+            bottom: 130px;
+            right: -280px;
+         }
+    }
+
+    .eyeContainer {
+
+        position: fixed;
+        z-index: 11;
+
+        img {
+
+            position: absolute;
+            bottom: 26px;
+            right: -280px;
+         }
+    }
+
+    .mouthContainer {
+
+        position: fixed;
+        z-index: 12;
+
+        img {
+
+            position: absolute;
+            bottom: -80px;
+            right: -280px;
+         }
+    }
 }
 
 
