@@ -917,26 +917,27 @@ th {
 /* line 6, ../sass/main.scss */
 html {
   font-size: 16px;
+  background: #DDD5B0;
 }
 
-/* line 12, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 .hide {
   opacity: 0;
 }
 
-/* line 18, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 .pageOne {
   background: #00a7b2;
   z-index: 3;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 .pageTwo {
   background: #ffffff;
   z-index: 2;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 .container {
   text-align: center;
   display: flex;
@@ -946,16 +947,16 @@ html {
   justify-content: center;
   position: relative;
 }
-/* line 38, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 .container p {
   font-family: Arial, Helvetica, sans-serif;
   color: #333333;
 }
-/* line 44, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .container .splash {
   max-width: 50%;
 }
-/* line 47, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .container .splash h1 {
   font-family: 'Love Ya Like A Sister', cursive;
   color: #dbd100;
@@ -964,19 +965,19 @@ html {
   letter-spacing: 1rem;
   margin: 0;
 }
-/* line 56, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .container .splash h2 {
   font-family: 'Leckerli One', cursive;
   color: #ff7965;
   font-size: 3rem;
   margin: 0;
 }
-/* line 65, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 .container .arrow a {
   text-decoration: none;
   color: #ff7965;
 }
-/* line 70, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 .container .arrow {
   font-size: 4rem;
   padding: 16px 0;
@@ -994,50 +995,50 @@ html {
     transform: translateY(0);
   }
 }
-/* line 88, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 .container .cupcake {
   position: fixed;
   top: 72px;
 }
-/* line 93, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .container .cupcake .frosting {
   position: absolute;
   top: 40px;
   right: -220px;
   z-index: 2;
 }
-/* line 100, ../sass/main.scss */
+/* line 101, ../sass/main.scss */
 .container .cupcake .frostingTop {
   fill: #02949D;
 }
-/* line 104, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 .container .cupcake .frostingBottom {
   fill: #00A7B2;
 }
-/* line 108, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .container .cupcake .cake {
   fill: #DBD100;
   position: absolute;
   top: 220px;
   right: -220px;
 }
-/* line 115, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 .container .cupcake .wrapper {
   fill: #FF7965;
   position: absolute;
   top: 330px;
   right: -220px;
 }
-/* line 121, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .container .cupcake .wrapper {
   stroke: #D66554;
 }
-/* line 126, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 .container .arrow2 a {
   text-decoration: none;
   color: #333333;
 }
-/* line 131, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 .container .arrow2 {
   font-size: 1rem;
   padding: 16px 0;
@@ -1046,7 +1047,7 @@ html {
   position: absolute;
   bottom: 30px;
 }
-/* line 140, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 .container .colorSelector {
   display: block;
   position: absolute;
@@ -1054,7 +1055,7 @@ html {
   top: 20px;
   text-align: left;
 }
-/* line 147, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .container .colorSelector .instructArrow1 {
   font-size: 1rem;
   display: block;
@@ -1074,7 +1075,7 @@ html {
     transform: translateY(0);
   }
 }
-/* line 169, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 .container .instructions {
   display: block;
   position: absolute;
@@ -1082,7 +1083,7 @@ html {
   top: 340px;
   text-align: left;
 }
-/* line 176, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .container .instructions .instructArrow2 {
   font-size: 1rem;
   display: block;
@@ -1102,34 +1103,34 @@ html {
     transform: translateX(0);
   }
 }
-/* line 199, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .container .accessoryContainer {
   position: fixed;
   z-index: 10;
 }
-/* line 204, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .container .accessoryContainer img {
   position: absolute;
   bottom: 130px;
   right: -280px;
 }
-/* line 212, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .container .eyeContainer {
   position: fixed;
   z-index: 11;
 }
-/* line 217, ../sass/main.scss */
+/* line 218, ../sass/main.scss */
 .container .eyeContainer img {
   position: absolute;
   bottom: 26px;
   right: -280px;
 }
-/* line 225, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .container .mouthContainer {
   position: fixed;
   z-index: 12;
 }
-/* line 230, ../sass/main.scss */
+/* line 231, ../sass/main.scss */
 .container .mouthContainer img {
   position: absolute;
   bottom: -80px;

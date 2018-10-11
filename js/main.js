@@ -74,10 +74,10 @@ $('#arrow2 a').on('click', function (e) {
   e.preventDefault();
 
   $('#pageTwo').css('background', '#FFFFFF').slideUp(1500);
-  $('#pageThree').css('background', '#DDD5B0');
   $(this).fadeOut();
   $('#custom').hide();
-  $('#cupcake').appendTo('newCupcake');
+  $('#pageThree').removeClass('hide');
+  $('#cupcake').appendTo('#pageThree');
   // $(clickAndColor).stop();
 
 });
@@ -97,7 +97,7 @@ $('#accessory').on('click', function() {
   $('#accessory').attr('src', nextItem);
 
   if (nextItem === accessories[5]) {
-    indexAcc = -1;
+    index = -1;
   }
 
 });
