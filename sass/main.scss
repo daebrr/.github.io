@@ -2,10 +2,11 @@
 @import 'compass';
 @import 'partials/normalize';
 @import 'partials/presets';
+@import 'partials/mixins';
  
 html {
     font-size: 16px;
-    background: #DDD5B0
+    background: #DDD5B0;
 }
 
   // Helpers 
@@ -43,8 +44,14 @@ position: relative;
         color: #333333;
         }
 
+     // Page 1 Elements
+
     .splash {
         max-width: 50%;
+
+        @include breakpoint(mobile) {
+            max-width: 100%;
+        }
 
         h1 {
             font-family: 'Love Ya Like A Sister', cursive;
@@ -53,6 +60,12 @@ position: relative;
             line-height: 6rem;
             letter-spacing: .5rem;
             margin: 0;
+
+            @include breakpoint(mobile) {
+                font-size: 4.5rem;
+                line-height: 5rem;
+            }
+
         }
 
         h2 {
@@ -87,6 +100,8 @@ position: relative;
         }
     }
 
+    // Page 2 Changable Cupcake Elements
+
     .cupcake {
 
         position: fixed;
@@ -94,10 +109,18 @@ position: relative;
 
         .frosting {
             position: absolute;
+            width: 450px;
             top: 40px;
             right: -220px;
             z-index: 2;
+
+            @include breakpoint(mobile) {
+                width: 300px;
+                top: 90px;
+                right: -150px;
+            }
         }
+        
 
         .frostingTop {
             fill:#02949D;
@@ -110,32 +133,36 @@ position: relative;
         .cake {
             fill:#DBD100;
             position: absolute;
+            width: 465px;
             top: 220px;
             right: -220px;
+
+            @include breakpoint(mobile) {
+                width: 300px;
+                top: 220px;
+                right: -150px;
+            }
+
         }
 
         .wrapper {
             fill:#FF7965;
             position: absolute;
+            width: 468px;
             top: 330px;
             right: -220px;
             stroke: #D66554;
+
+            @include breakpoint(mobile) {
+                width: 300px;
+                top: 290px;
+                right: -150px;
+            }
+
         }
     }
 
-    .arrow2 a, .arrow3 a, .arrow4 a {
-        text-decoration: none;
-        color: #333333;
-    }
-
-    .arrow2, .arrow3, .arrow4 {
-        font-size: 1rem;
-        padding: 16px 0;
-        animation: jump 1000ms ease-in-out 15;
-        transform-origin: 50% 50%;
-        position: absolute;
-        bottom: 30px;
-    }
+   // Page 2 Color Selector with Arrow 1
 
     .colorSelector {
         display: block;
@@ -166,12 +193,38 @@ position: relative;
 
     }
 
+    // Other Arrow Styles
+
+    .arrow2 a, .arrow3 a, .arrow4 a {
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .arrow2, .arrow3, .arrow4 {
+        font-size: 1rem;
+        padding: 16px 0;
+        animation: jump 1000ms ease-in-out 15;
+        transform-origin: 50% 50%;
+        position: absolute;
+        bottom: 30px;
+    }
+
    .instructions {
         display: block;
         position: absolute;
-        left: 150px;
+        left: 80px;
         top: 340px;
         text-align: left;
+
+        @include breakpoint(desktop) {
+            text-align: center;
+            left: 62px;
+        }
+
+        p {
+            display: inline-block;
+            margin: 4px 0;
+        }
 
         .instructArrow2, .instructArrow3 {
             font-size: 1rem;
@@ -180,7 +233,16 @@ position: relative;
             padding: 16px 0;
             animation: jump2 1000ms ease-in-out infinite;
             transform-origin: 50% 50%;
+
+        @include breakpoint(desktop) {
+            position: absolute;
+            bottom: 180px;
+            width: 250px;
+            text-align: center;
+            animation: jump1 1000ms ease-in-out infinite;
         }
+
+    }
 
         @keyframes jump2 {
             0% {
@@ -196,6 +258,8 @@ position: relative;
 
     }
 
+    // Page 3 Cupcake Accessories
+
     .cupcakeContainer {
 
         position: fixed;
@@ -208,8 +272,14 @@ position: relative;
                 position: absolute;
                 top: -45px;
                 right: -292px;
+
+                @include breakpoint(mobile) {
+                    width: 300px;
+                    left: -150px;
+                    top: 58px;
             }
         }
+    }
 
         .eyeContainer {
 
@@ -217,6 +287,12 @@ position: relative;
                 position: absolute;
                 top: 170px;
                 right: -292px;
+
+                @include breakpoint(mobile) {
+                    width: 300px;
+                    left: -150px;
+                    top: 190px;
+                }
             }
         }
 
@@ -226,11 +302,19 @@ position: relative;
                 position: absolute;
                 top: 280px;
                 right: -292px;
+
+                @include breakpoint(mobile) {
+                    width: 300px;
+                    left: -150px;
+                    top: 256px;
+                }
+
             }
         }
     }
 }
 
+// Final Page Confetti
 
 .celebration {
     animation: celebrate 1000ms ease-in-out infinite;

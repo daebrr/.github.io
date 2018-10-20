@@ -41,7 +41,6 @@ $('#arrow a').on('click', function (e) {
   });
 
   // Get Cupcake Colors & Change Them On Click
-
 var colorPickerEnabled = true;
 function initCupcakeColor(selector) {
   $(selector).click(function() {
@@ -363,3 +362,26 @@ fadeIn(12000, '#arrow4');
 $('#arrow4').on('click', function() {
   window.location.reload()
 });
+
+
+///////////////////////////////////////////////////////////////////////
+// Media Queries
+//////////////////////////////////////////////////////////////////////
+
+
+// Right Arrows to Down Arrows
+
+var x = window.matchMedia('(max-width: 1100px)')
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+      $('.instructArrow2 p').html('&#8595;')
+      $('.instructArrow3 p').html('&#8595;')
+  } else {
+      $('.instructArrow2 p').html('&#8594;')
+      $('.instructArrow3 p').html('&#8594;')
+  }
+};
+
