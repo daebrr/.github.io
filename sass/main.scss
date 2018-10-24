@@ -105,7 +105,12 @@ position: relative;
     .cupcake {
 
         position: fixed;
-        top: 72px;
+        top: 50%;
+        margin-top: -292px;
+
+        @include breakpoint(tablet) {
+            margin-top: -256px;
+        }
 
         .frosting {
             position: absolute;
@@ -120,7 +125,6 @@ position: relative;
                 right: -150px;
             }
         }
-        
 
         .frostingTop {
             fill:#02949D;
@@ -266,8 +270,13 @@ position: relative;
     .cupcakeContainer {
 
         position: fixed;
-        top: 72px;
+        top: 50%;
+        margin-top: -292px;
         z-index: 10;
+
+        @include breakpoint(tablet) {
+            margin-top: -256px;
+        }
 
         .accessoryContainer {
 
