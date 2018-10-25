@@ -93,12 +93,13 @@ function customizeCupcake(id, array) {
   $(id).click(function() {
 
     if (customizeCupcakeEnabled) {
-      var nextItem = array[++index];
-      $(id).attr('src', nextItem);
+      ++index;
+      if (index === array.length) {
+        index = 0;
+      }
 
-      if (nextItem === array[5]) {
-      index = -1;
-    }
+      var nextItem = array[index];
+      $(id).attr('src', nextItem);
   }
   });
 
