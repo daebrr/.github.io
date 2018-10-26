@@ -398,3 +398,7 @@ window.addEventListener("keydown", function(e) {
       e.preventDefault();
   }
 }, false);
+
+$('body').on("swipe",function(){
+  return false;
+});
