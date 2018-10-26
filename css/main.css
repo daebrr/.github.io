@@ -1119,9 +1119,15 @@ html {
   animation: jump 1000ms ease-in-out 15;
   transform-origin: 50% 50%;
   position: absolute;
-  bottom: 50px;
+  bottom: 30px;
 }
-/* line 217, ../sass/main.scss */
+@media (max-width: 1100px) {
+  /* line 208, ../sass/main.scss */
+  .container .arrow2, .container .arrow3, .container .arrow4 {
+    bottom: 72px;
+  }
+}
+/* line 222, ../sass/main.scss */
 .container .instructions {
   display: block;
   position: absolute;
@@ -1130,17 +1136,17 @@ html {
   text-align: left;
 }
 @media (max-width: 1100px) {
-  /* line 217, ../sass/main.scss */
+  /* line 222, ../sass/main.scss */
   .container .instructions {
     text-align: center;
   }
 }
-/* line 228, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 .container .instructions p {
   display: inline-block;
   margin: 4px 0;
 }
-/* line 233, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 .container .instructions .instructArrow2, .container .instructions .instructArrow3 {
   font-size: 1rem;
   display: block;
@@ -1150,13 +1156,13 @@ html {
   transform-origin: 50% 50%;
 }
 @media (max-width: 1100px) {
-  /* line 233, ../sass/main.scss */
+  /* line 238, ../sass/main.scss */
   .container .instructions .instructArrow2, .container .instructions .instructArrow3 {
     animation: jump1 1000ms ease-in-out infinite;
   }
 }
 @media (max-width: 1100px) {
-  /* line 217, ../sass/main.scss */
+  /* line 222, ../sass/main.scss */
   .container .instructions {
     left: 0;
     right: 0;
@@ -1175,7 +1181,7 @@ html {
     transform: translateX(0);
   }
 }
-/* line 270, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .container .cupcakeContainer {
   position: fixed;
   top: 50%;
@@ -1183,47 +1189,47 @@ html {
   z-index: 10;
 }
 @media (max-width: 768px) {
-  /* line 270, ../sass/main.scss */
+  /* line 275, ../sass/main.scss */
   .container .cupcakeContainer {
     margin-top: -256px;
   }
 }
-/* line 283, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 .container .cupcakeContainer .accessoryContainer img {
   position: absolute;
   top: -45px;
   right: -292px;
 }
 @media (max-width: 768px) {
-  /* line 283, ../sass/main.scss */
+  /* line 288, ../sass/main.scss */
   .container .cupcakeContainer .accessoryContainer img {
     width: 400px;
     left: -199px;
     top: 42px;
   }
 }
-/* line 298, ../sass/main.scss */
+/* line 303, ../sass/main.scss */
 .container .cupcakeContainer .eyeContainer img {
   position: absolute;
   top: 170px;
   right: -292px;
 }
 @media (max-width: 768px) {
-  /* line 298, ../sass/main.scss */
+  /* line 303, ../sass/main.scss */
   .container .cupcakeContainer .eyeContainer img {
     width: 400px;
     left: -199px;
     top: 180px;
   }
 }
-/* line 313, ../sass/main.scss */
+/* line 318, ../sass/main.scss */
 .container .cupcakeContainer .mouthContainer img {
   position: absolute;
   top: 280px;
   right: -292px;
 }
 @media (max-width: 768px) {
-  /* line 313, ../sass/main.scss */
+  /* line 318, ../sass/main.scss */
   .container .cupcakeContainer .mouthContainer img {
     width: 400px;
     left: -199px;
@@ -1231,7 +1237,7 @@ html {
   }
 }
 
-/* line 331, ../sass/main.scss */
+/* line 336, ../sass/main.scss */
 .celebration {
   animation: celebrate 1000ms ease-in-out infinite;
 }

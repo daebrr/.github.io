@@ -211,7 +211,12 @@ position: relative;
         animation: jump 1000ms ease-in-out 15;
         transform-origin: 50% 50%;
         position: absolute;
-        bottom: 50px;
+        bottom: 30px;
+
+        @include breakpoint(desktop) {
+            bottom: 72px;
+        }
+
     }
 
    .instructions {
