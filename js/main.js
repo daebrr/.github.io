@@ -386,7 +386,7 @@ function myFunction(x) {
   }
 };
 
-// Disable Mouse & Key Scrolling
+// Disable Mouse & Key Scrolling on Desktop
 
 $('body').bind("mousewheel", function() {
   return false;
@@ -399,11 +399,8 @@ window.addEventListener("keydown", function(e) {
   }
 }, false);
 
-// $('body').on('swipe',function(){
-//   return false;
-// });
 
-// $(document).on('touchmove', function(e){e.preventDefault()});  
+// Disable Mobile Scroll
 
 function preventBehavior(e) {
   e.preventDefault(); 

@@ -1119,7 +1119,7 @@ html {
   animation: jump 1000ms ease-in-out 15;
   transform-origin: 50% 50%;
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
 }
 /* line 217, ../sass/main.scss */
 .container .instructions {
