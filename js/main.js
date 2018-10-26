@@ -399,4 +399,8 @@ window.addEventListener("keydown", function(e) {
   }
 }, false);
 
-$('body').bind('touchmove', function(e){e.preventDefault()});  
+// $('body').on('swipe',function(){
+//   return false;
+// });
+
+$(document).on('touchmove', function(e){e.preventDefault()});  
