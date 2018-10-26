@@ -403,4 +403,10 @@ window.addEventListener("keydown", function(e) {
 //   return false;
 // });
 
-$(document).on('touchmove', function(e){e.preventDefault()});  
+// $(document).on('touchmove', function(e){e.preventDefault()});  
+
+function preventBehavior(e) {
+  e.preventDefault(); 
+};
+
+document.addEventListener("touchmove", preventBehavior, {passive: false});
