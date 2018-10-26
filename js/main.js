@@ -399,6 +399,4 @@ window.addEventListener("keydown", function(e) {
   }
 }, false);
 
-$('body').on("swipe",function(){
-  return false;
-});
+$('body').bind('touchmove', function(e){e.preventDefault()});  
