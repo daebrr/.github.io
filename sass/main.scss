@@ -350,3 +350,23 @@ position: relative;
 
 }
 
+// Hover States
+
+.pageTwo {
+
+    .frostingBottom, .frostingTop, .cake, .wrapper, .wrapperLine {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.pageThree {
+
+    #eye, #mouth, #accessory {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}

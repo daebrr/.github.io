@@ -1252,3 +1252,12 @@ html {
     transform: translateY(0);
   }
 }
+/* line 358, ../sass/main.scss */
+.pageTwo .frostingBottom:hover, .pageTwo .frostingTop:hover, .pageTwo .cake:hover, .pageTwo .wrapper:hover, .pageTwo .wrapperLine:hover {
+  cursor: pointer;
+}
+
+/* line 367, ../sass/main.scss */
+.pageThree #eye:hover, .pageThree #mouth:hover, .pageThree #accessory:hover {
+  cursor: pointer;
+}
